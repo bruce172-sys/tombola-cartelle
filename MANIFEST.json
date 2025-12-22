@@ -1,5 +1,5 @@
 {
-  "num_cartelle": 100,
+  "num_cartelle": 10,
   "pin_length": 4,
   "root_files": [
     "index.html",
@@ -10,504 +10,54 @@
   "cartelle_dir": "cartelle",
   "pins": [
     {
-      "pin": "24W4",
+      "pin": "3ZWE",
       "n": 1,
-      "file": "cartelle/24W4.html"
+      "file": "cartelle/3ZWE.html"
     },
     {
-      "pin": "254M",
+      "pin": "57PG",
       "n": 2,
-      "file": "cartelle/254M.html"
+      "file": "cartelle/57PG.html"
     },
     {
-      "pin": "255Y",
+      "pin": "CJKL",
       "n": 3,
-      "file": "cartelle/255Y.html"
+      "file": "cartelle/CJKL.html"
     },
     {
-      "pin": "2BPF",
+      "pin": "QXA9",
       "n": 4,
-      "file": "cartelle/2BPF.html"
+      "file": "cartelle/QXA9.html"
     },
     {
-      "pin": "2F2C",
+      "pin": "SBE2",
       "n": 5,
-      "file": "cartelle/2F2C.html"
+      "file": "cartelle/SBE2.html"
     },
     {
-      "pin": "2GL2",
+      "pin": "TW23",
       "n": 6,
-      "file": "cartelle/2GL2.html"
+      "file": "cartelle/TW23.html"
     },
     {
-      "pin": "2PH2",
+      "pin": "UJQC",
       "n": 7,
-      "file": "cartelle/2PH2.html"
+      "file": "cartelle/UJQC.html"
     },
     {
-      "pin": "3G5B",
+      "pin": "VUHJ",
       "n": 8,
-      "file": "cartelle/3G5B.html"
+      "file": "cartelle/VUHJ.html"
     },
     {
-      "pin": "3HG6",
+      "pin": "WJ6W",
       "n": 9,
-      "file": "cartelle/3HG6.html"
+      "file": "cartelle/WJ6W.html"
     },
     {
-      "pin": "3JC5",
+      "pin": "XHZ8",
       "n": 10,
-      "file": "cartelle/3JC5.html"
-    },
-    {
-      "pin": "3NUS",
-      "n": 11,
-      "file": "cartelle/3NUS.html"
-    },
-    {
-      "pin": "3TZC",
-      "n": 12,
-      "file": "cartelle/3TZC.html"
-    },
-    {
-      "pin": "4N6J",
-      "n": 13,
-      "file": "cartelle/4N6J.html"
-    },
-    {
-      "pin": "6FAE",
-      "n": 14,
-      "file": "cartelle/6FAE.html"
-    },
-    {
-      "pin": "6HGR",
-      "n": 15,
-      "file": "cartelle/6HGR.html"
-    },
-    {
-      "pin": "6QAU",
-      "n": 16,
-      "file": "cartelle/6QAU.html"
-    },
-    {
-      "pin": "6XEC",
-      "n": 17,
-      "file": "cartelle/6XEC.html"
-    },
-    {
-      "pin": "73S3",
-      "n": 18,
-      "file": "cartelle/73S3.html"
-    },
-    {
-      "pin": "7E6C",
-      "n": 19,
-      "file": "cartelle/7E6C.html"
-    },
-    {
-      "pin": "7KF7",
-      "n": 20,
-      "file": "cartelle/7KF7.html"
-    },
-    {
-      "pin": "7ZVB",
-      "n": 21,
-      "file": "cartelle/7ZVB.html"
-    },
-    {
-      "pin": "8J9D",
-      "n": 22,
-      "file": "cartelle/8J9D.html"
-    },
-    {
-      "pin": "8JKD",
-      "n": 23,
-      "file": "cartelle/8JKD.html"
-    },
-    {
-      "pin": "8PR9",
-      "n": 24,
-      "file": "cartelle/8PR9.html"
-    },
-    {
-      "pin": "8RSE",
-      "n": 25,
-      "file": "cartelle/8RSE.html"
-    },
-    {
-      "pin": "8TFD",
-      "n": 26,
-      "file": "cartelle/8TFD.html"
-    },
-    {
-      "pin": "92NQ",
-      "n": 27,
-      "file": "cartelle/92NQ.html"
-    },
-    {
-      "pin": "9JY2",
-      "n": 28,
-      "file": "cartelle/9JY2.html"
-    },
-    {
-      "pin": "9LAX",
-      "n": 29,
-      "file": "cartelle/9LAX.html"
-    },
-    {
-      "pin": "A2KM",
-      "n": 30,
-      "file": "cartelle/A2KM.html"
-    },
-    {
-      "pin": "A7SQ",
-      "n": 31,
-      "file": "cartelle/A7SQ.html"
-    },
-    {
-      "pin": "A7V6",
-      "n": 32,
-      "file": "cartelle/A7V6.html"
-    },
-    {
-      "pin": "B5XA",
-      "n": 33,
-      "file": "cartelle/B5XA.html"
-    },
-    {
-      "pin": "B883",
-      "n": 34,
-      "file": "cartelle/B883.html"
-    },
-    {
-      "pin": "B97J",
-      "n": 35,
-      "file": "cartelle/B97J.html"
-    },
-    {
-      "pin": "BK3W",
-      "n": 36,
-      "file": "cartelle/BK3W.html"
-    },
-    {
-      "pin": "CEGF",
-      "n": 37,
-      "file": "cartelle/CEGF.html"
-    },
-    {
-      "pin": "CGY9",
-      "n": 38,
-      "file": "cartelle/CGY9.html"
-    },
-    {
-      "pin": "CJN3",
-      "n": 39,
-      "file": "cartelle/CJN3.html"
-    },
-    {
-      "pin": "CK85",
-      "n": 40,
-      "file": "cartelle/CK85.html"
-    },
-    {
-      "pin": "DEY4",
-      "n": 41,
-      "file": "cartelle/DEY4.html"
-    },
-    {
-      "pin": "DEZ5",
-      "n": 42,
-      "file": "cartelle/DEZ5.html"
-    },
-    {
-      "pin": "DG3F",
-      "n": 43,
-      "file": "cartelle/DG3F.html"
-    },
-    {
-      "pin": "EG54",
-      "n": 44,
-      "file": "cartelle/EG54.html"
-    },
-    {
-      "pin": "EJKJ",
-      "n": 45,
-      "file": "cartelle/EJKJ.html"
-    },
-    {
-      "pin": "F2D7",
-      "n": 46,
-      "file": "cartelle/F2D7.html"
-    },
-    {
-      "pin": "FNCR",
-      "n": 47,
-      "file": "cartelle/FNCR.html"
-    },
-    {
-      "pin": "FPNU",
-      "n": 48,
-      "file": "cartelle/FPNU.html"
-    },
-    {
-      "pin": "G4M8",
-      "n": 49,
-      "file": "cartelle/G4M8.html"
-    },
-    {
-      "pin": "GFGG",
-      "n": 50,
-      "file": "cartelle/GFGG.html"
-    },
-    {
-      "pin": "GJK4",
-      "n": 51,
-      "file": "cartelle/GJK4.html"
-    },
-    {
-      "pin": "GM2P",
-      "n": 52,
-      "file": "cartelle/GM2P.html"
-    },
-    {
-      "pin": "GM5B",
-      "n": 53,
-      "file": "cartelle/GM5B.html"
-    },
-    {
-      "pin": "HNCD",
-      "n": 54,
-      "file": "cartelle/HNCD.html"
-    },
-    {
-      "pin": "JMTH",
-      "n": 55,
-      "file": "cartelle/JMTH.html"
-    },
-    {
-      "pin": "JWMU",
-      "n": 56,
-      "file": "cartelle/JWMU.html"
-    },
-    {
-      "pin": "K2SJ",
-      "n": 57,
-      "file": "cartelle/K2SJ.html"
-    },
-    {
-      "pin": "K94B",
-      "n": 58,
-      "file": "cartelle/K94B.html"
-    },
-    {
-      "pin": "KKQG",
-      "n": 59,
-      "file": "cartelle/KKQG.html"
-    },
-    {
-      "pin": "LDBY",
-      "n": 60,
-      "file": "cartelle/LDBY.html"
-    },
-    {
-      "pin": "LQYM",
-      "n": 61,
-      "file": "cartelle/LQYM.html"
-    },
-    {
-      "pin": "MJT5",
-      "n": 62,
-      "file": "cartelle/MJT5.html"
-    },
-    {
-      "pin": "MLWL",
-      "n": 63,
-      "file": "cartelle/MLWL.html"
-    },
-    {
-      "pin": "NDLN",
-      "n": 64,
-      "file": "cartelle/NDLN.html"
-    },
-    {
-      "pin": "NM2K",
-      "n": 65,
-      "file": "cartelle/NM2K.html"
-    },
-    {
-      "pin": "NS42",
-      "n": 66,
-      "file": "cartelle/NS42.html"
-    },
-    {
-      "pin": "PAE7",
-      "n": 67,
-      "file": "cartelle/PAE7.html"
-    },
-    {
-      "pin": "PD2D",
-      "n": 68,
-      "file": "cartelle/PD2D.html"
-    },
-    {
-      "pin": "PUFL",
-      "n": 69,
-      "file": "cartelle/PUFL.html"
-    },
-    {
-      "pin": "PZXL",
-      "n": 70,
-      "file": "cartelle/PZXL.html"
-    },
-    {
-      "pin": "Q5RK",
-      "n": 71,
-      "file": "cartelle/Q5RK.html"
-    },
-    {
-      "pin": "QMSD",
-      "n": 72,
-      "file": "cartelle/QMSD.html"
-    },
-    {
-      "pin": "QSMR",
-      "n": 73,
-      "file": "cartelle/QSMR.html"
-    },
-    {
-      "pin": "QY2A",
-      "n": 74,
-      "file": "cartelle/QY2A.html"
-    },
-    {
-      "pin": "R2G7",
-      "n": 75,
-      "file": "cartelle/R2G7.html"
-    },
-    {
-      "pin": "R3DG",
-      "n": 76,
-      "file": "cartelle/R3DG.html"
-    },
-    {
-      "pin": "R3UY",
-      "n": 77,
-      "file": "cartelle/R3UY.html"
-    },
-    {
-      "pin": "R9TT",
-      "n": 78,
-      "file": "cartelle/R9TT.html"
-    },
-    {
-      "pin": "RCNE",
-      "n": 79,
-      "file": "cartelle/RCNE.html"
-    },
-    {
-      "pin": "RE7A",
-      "n": 80,
-      "file": "cartelle/RE7A.html"
-    },
-    {
-      "pin": "S3D6",
-      "n": 81,
-      "file": "cartelle/S3D6.html"
-    },
-    {
-      "pin": "S5Q5",
-      "n": 82,
-      "file": "cartelle/S5Q5.html"
-    },
-    {
-      "pin": "SMHP",
-      "n": 83,
-      "file": "cartelle/SMHP.html"
-    },
-    {
-      "pin": "TA3K",
-      "n": 84,
-      "file": "cartelle/TA3K.html"
-    },
-    {
-      "pin": "TQ3U",
-      "n": 85,
-      "file": "cartelle/TQ3U.html"
-    },
-    {
-      "pin": "TWYE",
-      "n": 86,
-      "file": "cartelle/TWYE.html"
-    },
-    {
-      "pin": "UURW",
-      "n": 87,
-      "file": "cartelle/UURW.html"
-    },
-    {
-      "pin": "V4ZU",
-      "n": 88,
-      "file": "cartelle/V4ZU.html"
-    },
-    {
-      "pin": "W4CC",
-      "n": 89,
-      "file": "cartelle/W4CC.html"
-    },
-    {
-      "pin": "W7ZB",
-      "n": 90,
-      "file": "cartelle/W7ZB.html"
-    },
-    {
-      "pin": "WASJ",
-      "n": 91,
-      "file": "cartelle/WASJ.html"
-    },
-    {
-      "pin": "WFJA",
-      "n": 92,
-      "file": "cartelle/WFJA.html"
-    },
-    {
-      "pin": "WSTP",
-      "n": 93,
-      "file": "cartelle/WSTP.html"
-    },
-    {
-      "pin": "WZCQ",
-      "n": 94,
-      "file": "cartelle/WZCQ.html"
-    },
-    {
-      "pin": "X7CR",
-      "n": 95,
-      "file": "cartelle/X7CR.html"
-    },
-    {
-      "pin": "Y72Q",
-      "n": 96,
-      "file": "cartelle/Y72Q.html"
-    },
-    {
-      "pin": "YEPE",
-      "n": 97,
-      "file": "cartelle/YEPE.html"
-    },
-    {
-      "pin": "YHUB",
-      "n": 98,
-      "file": "cartelle/YHUB.html"
-    },
-    {
-      "pin": "YQ4L",
-      "n": 99,
-      "file": "cartelle/YQ4L.html"
-    },
-    {
-      "pin": "ZD36",
-      "n": 100,
-      "file": "cartelle/ZD36.html"
+      "file": "cartelle/XHZ8.html"
     }
   ]
 }
