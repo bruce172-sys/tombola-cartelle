@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="it"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Tombola – Cartelle</title>
+<title>Cartella EPWD</title>
 <style>
 :root{--bg:#0b1220;--card:#111a2e;--txt:#e7eefc;--muted:#94a3b8;--ok:#22c55e;--border:#1f2a44;}
 *{box-sizing:border-box}
@@ -49,36 +49,61 @@ body{overflow-x:hidden}
 
 </style>
 </head><body>
-<header><div class="badge">Tombola – Cartelle</div></header>
+<header>
+  <div class="badge">Cartella <span>EPWD</span></div>
+  <button class="btn" id="reset">Azzera</button>
+</header>
+
 <div class="wrap">
-  <div class="card">
-    <div class="hint">Inserisci il tuo PIN (es. <b>5EMR</b>)</div>
-    <input id="code" placeholder="PIN (es. 5EMR)" autocomplete="off" />
-    <div style="height:10px"></div>
-    <button class="primary" onclick="go()">Apri cartella</button>
-    <div id="msg" class="hint" style="margin-top:10px"></div>
-  </div>
+  <div class="hint">Benvenuti alla Tombola Musicale!</div>
+  <div class="hint">LAS VEGAS SHOW</div>
+  <div style="height:10px"></div>
+  <div class="grid" id="grid"></div>
 </div>
 
-<script>
-async function go(){
-  let c = (document.getElementById("code").value || "").toUpperCase().trim().replace(/\s+/g,"");
-  const msg = document.getElementById("msg");
-  msg.textContent = "";
-  msg.className = "hint";
-  if(!c){ msg.textContent="Inserisci un PIN."; msg.className="err"; return; }
+<div class="small">Tocca una canzone per marcarla. I segni restano salvati sul tuo telefono.</div>
 
-  try {
-    const res = await fetch("codes.json", {cache:"no-store"});
-    const map = await res.json();
-    const url = map[c];
-    if(!url){ msg.textContent="PIN non valido."; msg.className="err"; return; }
-    window.location.href = url;
-  } catch(e) {
-    msg.textContent = "Errore caricamento. Riprova.";
-    msg.className="err";
+<script>
+const PIN = "EPWD";
+const CELLS = [["Notte prima degli esami", "La notte", "Due vite", "Sally", "Che sarà"], ["La lontananza", "L'isola che non c'è", "Dimmi quando", "Non è detto", "Vattene amore"], ["Mon amour", "Vivo per lei", "Bella senz'anima", "La cura", "Gli uomini non cambiano"]];
+const KEY = "tombola_marks_" + PIN;
+
+function loadMarks(){
+  try{ return new Set(JSON.parse(localStorage.getItem(KEY) || "[]")); }
+  catch{ return new Set(); }
+}
+function saveMarks(set){ localStorage.setItem(KEY, JSON.stringify([...set])); }
+
+let marks = loadMarks();
+const grid = document.getElementById("grid");
+
+function render(){
+  grid.innerHTML = "";
+  for(let r=0;r<3;r++) {
+    for(let c=0;c<5;c++) {
+      const v = CELLS[r][c];
+      const d = document.createElement("div");
+      d.className = "cell";
+      d.textContent = v;
+      if(marks.has(v)) d.classList.add("marked");
+      d.addEventListener("click", ()=>{
+        if(marks.has(v)) marks.delete(v); else marks.add(v);
+        saveMarks(marks);
+        render();
+      });
+      grid.appendChild(d);
+    }
   }
 }
-document.getElementById("code").addEventListener("keydown", e=>{ if(e.key==="Enter") go(); });
+
+document.getElementById("reset").addEventListener("click", ()=>{
+  if(confirm("Azzero i segni?")) {
+    marks = new Set();
+    saveMarks(marks);
+    render();
+  }
+});
+
+render();
 </script>
 </body></html>
